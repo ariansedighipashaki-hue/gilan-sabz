@@ -1,0 +1,33 @@
+/* =========================================================
+                            ریسپانسیو  
+   ========================================================= */
+@media (max-width: 1024px) {
+    .hero-text { padding-left: 12%; }
+    .section-text { left: 5%; width: 48%; }
+}
+@media (max-width: 768px) {
+    .div-section-box-for-historya { flex-direction: column; gap: 0; }
+    .section-box-for-text { margin-top: 10px; }
+    .img-history { min-height: 0; height: auto; }
+    .hero-text { padding-left: 8%; }
+    .foot { justify-content: center; text-align: center; }
+    .ul1 { margin-right: 0; }
+    .a11, .foot strong { justify-content: center; }
+    .div-section-box { display: flex; flex-wrap: wrap; }
+    .section-text{ margin-top: -20px; left: 2%;  }
+    .h2-3, .h2-6 { font-size: 1.28rem; }  
+     .h2-5 ,.h2-5-1{ font-size: 2rem; }
+}
+@media (max-width: 480px) {
+    .heder { padding: 0 8px; }
+    .naviction-box { gap: 4px; margin-left: calc(var(--logo-h) * 1.5 + 4vw); }
+    .logo { left: 3%; }
+    .section-text { left: 3%; width: 48%;margin-top: -25px;}
+    .section-text br { display: none; }
+    .h2-3, .h2-6 { font-size: 0.89rem; line-height: 1.6; }
+    .h2-5 ,.h2-5-1{ font-size: 1.4rem; }
+    .h11 { font-size: 1.55rem; margin-top: -20px;}
+    .hero-text { padding-left: 6%; padding-right: 6%; }
+    .div-section-box { display: flex; flex-wrap: wrap; }
+
+}

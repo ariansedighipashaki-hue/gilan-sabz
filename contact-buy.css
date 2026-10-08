@@ -1,0 +1,234 @@
+:root {
+    --color: rgb(248, 245, 245);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+a {
+    text-decoration: none;
+}
+body {
+    font-family: "Vazirmatn", Tahoma, sans-serif;
+    background-color: rgb(5, 34, 5);
+    color: var(--color);
+}
+.div1 {
+    width: 95%;
+    display: block;
+    margin: auto;
+}
+.div-for-box {
+    width: 95%;
+    display: block;
+    margin: 3% auto;
+    background: linear-gradient(green,rgb(65, 108, 65));
+    padding: 6%;
+    border-radius: 20px;
+}
+h1 {
+    margin-bottom: 20px;
+    font-size: clamp(1.5rem, 1rem + 2.4vw, 2.7rem);
+    color: aliceblue;
+}
+.h2-shop1 {
+    font-size: 1.4rem;
+    color: rgb(248, 244, 244);
+    margin-bottom: 30px;
+}
+button {
+    padding: 20px;
+    border-radius: 15px;
+    display: block;
+    margin: auto;
+    background-color: rgba(81, 255, 0, 0.615);
+    transition: transform 0.2s;
+    font-size: 1rem;
+    font-weight: 900;
+}
+button:hover {
+    transform: translateY(-5px);
+}
+.mahsol-h2 {
+    color: rgba(149, 255, 0, 0.778);
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.img-for-tia {
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+    margin: auto;
+    border-radius: 20px 0 20px 3px;
+    margin-bottom: 20px;
+}
+.div-card-for-tia {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 3%;
+}
+.section-card {
+    border: 1px solid rgba(0, 128, 0, 0.216);
+    width: 100%;
+    background-color: #14261A;
+    height: auto;
+    padding: 0 10px  0 0;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    border-radius: 20px 5px 25px  5px;
+}
+.h2-shop2 {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+}
+.section-for-phon {
+    padding: 8px;
+    width: auto;
+    margin-top: 10px;
+    height: auto;
+    display: inline-block;
+    border-radius: 20px;
+    color: #187B04;
+    background-color: #153017;
+}
+.h3-shop1 {
+    font-weight: bold;
+    font-size: 1rem;
+    color: rgba(102, 169, 102, 0.834);
+}
+.h2-shop3 {
+    color: rgb(208, 255, 0);
+}
+.a-phon {
+    color: aliceblue;
+}
+.section-box-shop {
+    display: block;
+    border: 1px solid rgba(85, 255, 0, 0.163);
+    padding: 26px;
+    background-color: rgba(20, 55, 1, 0.44);
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.p-div {
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+.div-for-soushal {
+    display: block;
+    border: 1px solid rgb(40, 98, 2);
+    border-radius: 20px;
+    padding-top: 10px;
+}
+.div-for-to-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.p-er {
+    font-size: 1.4rem;
+    margin-right: 15px;
+    margin-top: 10px;
+    font-weight: 900;
+    color: rgb(208, 255, 0);
+    margin-bottom: 10px;
+}
+.span-for-pasoc {
+    display: block;
+    margin-right: 15px;
+    margin-top: 10px;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+.section-for-sousal {
+    display: flex;
+    margin: auto;
+    width: 95%;
+    position: relative;
+    background-color: transparent;
+    flex-wrap: wrap-reverse;
+}
+.btn-scy {
+    display: inline-flex;
+    padding: 20px;
+    margin: auto;
+    width: 95%;
+    margin-bottom: 10px;
+    position: relative;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: #1D3B1B;
+}
+.btn-scy:hover {
+    background-color: #3D563B;
+}
+.span-for-sousal {
+    margin-top: -10px;
+    color: aliceblue;
+    margin-right: 30px;
+}
+i {
+    position: absolute;
+    top: 30px;
+    right: 1px;
+    font-size: 1.5rem;
+    color: #fefeb0;
+}
+.a-for-section {
+    display: block;
+    margin-top: 3%;
+    margin-right: -40px;
+    color: white;
+}
+img {
+    max-width: 100%;
+}
+@media (max-width: 768px) {
+    .div-for-box {
+        padding: 8%;
+    }
+    .mahsol-h2 {
+        font-size: 1.6rem;
+    }
+    .div-card-for-tia {
+        flex-direction: column;
+    }
+    .img-for-tia {
+        width: 60%;
+    }
+    .div-for-to-section {
+        grid-template-columns: 1fr;
+    }
+
+}
+@media (max-width: 400px) {
+    .h2-shop1 {
+        font-size: 1.1rem;
+    }
+    .btn-scy {
+        padding: 14px;
+    }
+
+}
+
+.back-nav {
+    width: 95%;
+    margin: 16px auto 0;
+}
+.back-link {
+    display: inline-block;
+    padding: 8px 16px;
+    color: aliceblue;
+    background-color: #153017;
+    border-radius: 20px;
+    font-size: 1rem;
+}

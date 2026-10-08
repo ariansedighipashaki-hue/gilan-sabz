@@ -1,0 +1,107 @@
+/* صفحه درباره ما: هدر این صفحه ثابت (fixed) نیست */
+body {
+    padding-top: 0;
+}
+body {
+    background-image: linear-gradient(rgba(0, 221, 255, 0.433),rgba(0, 128, 0, 0.416));
+}
+.heder {
+    min-height: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    perspective: 1000px;
+}
+.card1 {
+    width: 40%;
+    display: block;
+    margin: 0 auto;
+}
+.h2-a {
+    color: darkgreen;
+    font-size: 2.5rem;
+}
+h1, h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: green;
+}
+span {
+    color: green;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+h1 {
+    font-size: 1.5em;
+}
+.about-p {
+    font-size: 1.17em;
+    font-weight: bold;
+    line-height: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.logo-my {
+    width: 20%;
+    animation: trans 6s infinite linear;
+    transform-style: preserve-3d;
+}
+@keyframes trans{
+from{
+    transform: rotateY(0deg);
+}
+to {
+    transform: rotateY(360deg);
+}
+}
+.nama {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 50px;
+    background-color: gray;
+    border-radius: 10px;
+}
+.i-white {
+    color: rgba(0, 128, 0, 0.578);
+}
+.a360 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+@media (max-width: 1100px) {
+    .card1 {
+        width: 70%;
+    }
+
+}
+@media (max-width: 768px) {
+    .card1 {
+        width: 92%;
+    }
+    .logo-my {
+        width: 45%;
+    }
+    .nama {
+        flex-wrap: wrap;
+        gap: 16px;
+        padding: 24px;
+    }
+    h1, h2 {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .about-p {
+        font-size: 1rem;
+    }
+
+}
+
+.logo-my {
+    height: auto;
+}
