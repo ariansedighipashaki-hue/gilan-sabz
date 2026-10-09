@@ -15,8 +15,8 @@
     .a11, .foot strong { justify-content: center; }
     .div-section-box { display: flex; flex-wrap: wrap; }
     .section-text{ margin-top: -20px; left: 2%;  }
-    .h2-3, .h2-6 { font-size: 1.28rem; }  
-     .h2-5 ,.h2-5-1{ font-size: 2rem; }
+    .h2-3, .h2-6 { font-size: 1.1rem; }  
+     .h2-5 ,.h2-5-1{ font-size: 1.8rem; }
 }
 @media (max-width: 480px) {
     .heder { padding: 0 8px; }
@@ -24,8 +24,8 @@
     .logo { left: 3%; }
     .section-text { left: 3%; width: 48%;margin-top: -25px;}
     .section-text br { display: none; }
-    .h2-3, .h2-6 { font-size: 0.89rem; line-height: 1.6; }
-    .h2-5 ,.h2-5-1{ font-size: 1.4rem; }
+    .h2-3, .h2-6 { font-size: 0.77rem; line-height: 1.6; }
+    .h2-5 ,.h2-5-1{ font-size: 1.1rem; }
     .h11 { font-size: 1.55rem; margin-top: -20px;}
     .hero-text { padding-left: 6%; padding-right: 6%; }
     .div-section-box { display: flex; flex-wrap: wrap; }
