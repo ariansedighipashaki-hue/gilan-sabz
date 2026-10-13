@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://gilansabz.ir/sitemap.xml
+Sitemap: https://gilan-sabz.ir/sitemap.xml
